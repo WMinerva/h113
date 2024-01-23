@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   <title>Cirujia y Rehabilitacion</title>
+</head>
+<body bgcolor="#fffdd0">
+    <h1 style="text-align: center; color: orange;">Cirujia y Rehabilitacion</h1>
+
+    <h2>La clinica esta preparada para cualquier tipo de incidente o enfermedad que pudiera adquirir su mascota</h2>
+    <br>
+    <h2>Asi mismo tambien priorizamos su recuperacion despues de una intervencion, ofreciendo cualquier tipo de material para su recuperacion</h2>
+
+    <img src="Img/rehabilitacion.jpg"  width="600" height="400" align="right">
+
+    <p>Toda cirujia necesita su previa consulta, los precios varian en funcion de cuanto material se necesita para una operacion exitosa.</p>
+    <p>Intervenciones rutinarias:</p>
+    <table border="1">
+        <tr>
+            <td>Cirujia</td>
+            <th>Costo</th>
+            <th>Tiempo de recuperacion</th>
+        </tr>
+        <tr>
+            <td>Castracion</td>
+            <td>800bs</td>
+            <td>1 semana</td>
+        </tr>
+        <tr>
+            <td>Rotura de hueso</td>
+            <td>500bs</td>
+            <td>4 semanas</td>
+        </tr>
+        <tr>
+            <td>Extraccion intestinal</td>
+            <td>1200bs</td>
+            <td>4 semanas</td>
+        </tr>
+        <tr>
+            <td>Rayos X</td>
+            <td>100bs</td>
+            <td>ninguno</td>
+        </tr>
+    </table>
+</form>
+
+<p>Ingrese los datos de su mascota:</p>
+<form action="formulario.php" method="get">
+    <label for="nombre" >Nombre de su mascota:</label>
+    <input id="nombre" name="nombre" placeholder="Nombre..." />
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="nacimiento" min="1" max="20"/>
+    <br>
+    <button type="reset">Borrar</button>
+    <button type="submit">Enviar</button>
+    
+</form>
+
+</body>
+</html>
